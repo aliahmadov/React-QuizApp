@@ -1,0 +1,31 @@
+
+
+.quiz-cont{
+    width: 60%;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.correct-answer{
+    background-color: green !important;
+    color: white !important;
+}
+
+.wrong-answer{
+    background-color: red !important;
+    color: white !important;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+    padding-bottom: 20px;
+    font-style: italic;
+}

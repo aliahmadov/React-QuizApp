@@ -1,0 +1,54 @@
+
+
+.quiz{
+    padding: 20px;
+    border: 1px solid red;
+    background-color: white;
+    width: 95%;
+}
+
+.q-frame{
+    border: 1px dashed green;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.option-frame{
+    padding: 10px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-frame{
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.arrow-style{
+    font-size: 75px;
+    color: green;
+    margin: 10px;
+}
+.arrow-style:hover{
+    cursor: pointer;
+    color: black;
+    transition:0.7s;
+}
+
+.option{
+    width: 90%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.option:hover{
+    background-color:black;
+    color: white;
+    transition:0.7s;
+    cursor: pointer;
+}
